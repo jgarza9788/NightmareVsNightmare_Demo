@@ -59,6 +59,16 @@ this will allow the Camera Effects to work.
 
 ![Imgur](http://i.imgur.com/lgjMAA7m.png)
 
+**Unity Ads 2.0**  
+Also download Unity Ads 2.0 from the asset store 
+(if needed, pending on the unity version this can be imported via the services window)
+
+**EveryPlay**  
+Also download EveryPlay from the asset store 
+
+>>
+After importing these your asset folder should look like this
+![Imgur](http://i.imgur.com/V2InKF0m.png)
 
 Scenes 
 -------------------------------------
@@ -106,6 +116,9 @@ Below is a list of the scripts that make this game work, along with a breif desc
 **AmmoUIManager.cs**  
 This script manages the ammo (number of UIBullets) that are seen on the screen
 
+**BlurControl.cs**  
+Used to allow the animator to control the Blur Material
+
 **BothPlayersReady.cs**  
 This Script will transition to the Game scene when both players are ready.
 
@@ -115,8 +128,14 @@ sets bounds to determine what is in the camera's view
 **CameraControl.cs**  
 Moves the camera to show the winner when the game is over
 
+**ChildrenAlpha.cs**  
+Used to change the alpha of the menu icons and text.
+
 **DontDestroy.cs**  
 This script will allow an object to live on after scene transition.
+
+**EveryPlayButton.cs**
+takes the users to everyplay community
 
 **explosionDamage.cs**  
 causes damage to the player if it is hit by an explosion particle.
@@ -143,6 +162,9 @@ This script is used to manage the music.
 **ObjectPool.cs**  
 A pool of objects that can be reused.
 
+**OpenMenu.cs**
+used to open and close the menu
+
 **playerHP.cs**  
 this script controls the player's HP.
 
@@ -156,6 +178,9 @@ Note: stores 0 and 1 as int, but converts it to a bool on return
 **playerShoot.cs**  
 this script allows the player to shoot!
 
+**PlayRecIcon.cs**
+used to set the icon for playing the recorded match.
+
 **PlaySound.cs**  
 This script is used to play a sound
 
@@ -166,11 +191,17 @@ Spawning and Recycling.
 **projectile.cs**  
 this script is used to detect projectile collision
 
+**RecToggle.cs**  
+used to set the RecToggle in the menu if the device is supported, or not.
+
 **RecycleAfter.cs**  
 This script Recycles a projectile (needed so the projectile fades out)
 
 **RecycleAfter.cs**  
 This script Recycles an Object after t seconds
+
+**RecycleAfter_Projectile.cs**
+This script Recycles a projectile (needed so the projectile fades out)
 
 **Rematch.cs**  
 used on the Rematch button when the game is over
@@ -190,24 +221,27 @@ used to go to the TitleScene on tap
 **ToggleAnimControl.cs**  
 used to control toggles
 
+**ToggleIconSwitch.cs**  
+This Script can be assigned to a toggle to control Music or Sound
+
 **TurnOnParticles.cs**  
 turns on the lights and Particles on the TitleScene
-
-**VolumeSwitch.cs**  
-This Script can be assigned to a toggle to control Music or Sound
 
 
 Gifs 
 -------------------------------------
 
-![Imgur](http://i.imgur.com/CvNAecym.gifv)
+![Imgur](http://i.imgur.com/CvNAecym.gifv)  
+[Imgur](http://i.imgur.com/CvNAecym.gifv)
 
-![Imgur](http://i.imgur.com/JBWw3zUm.gifv)
+![Imgur](http://i.imgur.com/JBWw3zUm.gifv)  
+[Imgur](http://i.imgur.com/JBWw3zUm.gifv)
 
-![Imgur](http://i.imgur.com/YjKoGDqm.gifv)
+![Imgur](http://i.imgur.com/YjKoGDqm.gifv)  
+[Imgur](http://i.imgur.com/YjKoGDqm.gifv)
 
-![Imgur](http://i.imgur.com/Y37mrVnm.gifv)
-
+![Imgur](http://i.imgur.com/Y37mrVnm.gifv)  
+[Imgur](http://i.imgur.com/Y37mrVnm.gifv)
 
 
 
