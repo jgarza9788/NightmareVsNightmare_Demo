@@ -67,7 +67,7 @@ Also download Unity Ads 2.0 from the asset store
 Also download EveryPlay from the asset store 
 
 >>
-After importing these your asset folder should look like this
+After importing these your asset folder should look like this   
 ![Imgur](http://i.imgur.com/V2InKF0m.png)
 
 Scenes 
