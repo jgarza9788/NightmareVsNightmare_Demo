@@ -66,9 +66,10 @@ Also download Unity Ads 2.0 from the asset store
 **EveryPlay**  
 Also download EveryPlay from the asset store 
 
->>
+>
 After importing these your asset folder should look like this   
 ![Imgur](http://i.imgur.com/V2InKF0m.png)
+
 
 Scenes 
 -------------------------------------
@@ -91,6 +92,14 @@ Note: it has 4 different status (Intro, Play, P1Win, P2Win)
 
 **Info**
 This scene can provide legal info about the game.
+
+
+>
+The Scenes will look a little different than the images above.  
+In order to make them look the same please unzip the ScenesWithEffects.zip file **or** apply the following effects to the cameras in each scene:  
+Bloom, Vignette and Chromatic Aberration, and Color Correction Curves.
+![Imgur](http://i.imgur.com/qrDvXTkm.png)
+
 
 
 Systems/Effects 
@@ -231,17 +240,17 @@ turns on the lights and Particles on the TitleScene
 Gifs 
 -------------------------------------
 
-![Imgur](http://i.imgur.com/CvNAecym.gifv)  
-[Imgur](http://i.imgur.com/CvNAecym.gifv)
-
 ![Imgur](http://i.imgur.com/JBWw3zUm.gifv)  
-[Imgur](http://i.imgur.com/JBWw3zUm.gifv)
+[Imgur](http://i.imgur.com/JBWw3zU.gifv)
 
 ![Imgur](http://i.imgur.com/YjKoGDqm.gifv)  
-[Imgur](http://i.imgur.com/YjKoGDqm.gifv)
+[Imgur](http://i.imgur.com/YjKoGDq.gifv)
 
 ![Imgur](http://i.imgur.com/Y37mrVnm.gifv)  
-[Imgur](http://i.imgur.com/Y37mrVnm.gifv)
+[Imgur](http://i.imgur.com/Y37mrVn.gifv)
+
+![Imgur](http://i.imgur.com/CvNAecym.gifv)  
+[Imgur](http://i.imgur.com/CvNAecy.gifv)
 
 
 
