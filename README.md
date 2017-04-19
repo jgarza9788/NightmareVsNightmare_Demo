@@ -96,10 +96,12 @@ This scene can provide legal info about the game.
 
 >
 The Scenes will look a little different than the images above.  
-In order to make them look the same please unzip the ScenesWithEffects.zip file **or** apply the following effects to the cameras in each scene:  
-Bloom, Vignette and Chromatic Aberration, and Color Correction Curves.
-![Imgur](http://i.imgur.com/qrDvXTkm.png)
-
+In order to make them look the same please apply the following effects to the cameras in each scene:  
+Bloom, Vignette and Chromatic Aberration, and Color Correction Curves.  
+![Imgur](http://i.imgur.com/qrDvXTkm.png)  
+[LinkToImage](http://i.imgur.com/qrDvXTk.png)
+>
+**or** you can unzip the MainCameraWithEffects.zip and use that prefab to replace the MainCamera.prefab.
 
 
 Systems/Effects 
