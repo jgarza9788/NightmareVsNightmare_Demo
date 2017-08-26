@@ -6,129 +6,140 @@ Nightmare Vs. Nightmare
 PLEASE LEAVE A REVIEW OR RATE THE PACKAGE IF YOU FIND IT USEFUL!
 Enjoy! :)
 
-Contact  
--------------------------------------
+## Table of Contents
+
+* [Contact](#Contact)
+* [Description/Features](#Description-Features)
+* [Terms of Use](#Terms-of-Use)
+* [Required Imports](#Required-Imports)
+* [Inputs](#Inputs)
+* [Scenes](#Scenes)
+	* [StartScene](#StartScene)
+	* [TitleScene](#TitleScene)
+	* [Game](#Game)
+	* [Info](#Info)
+* [Systems/Effects](#Systems/Effects)
+	* [Audio (Music/Sound)](#Audio-(Music/Sound))
+	* [SceneSwitchAnimator](#SceneSwitchAnimator)
+	* [Native Sharing](#Native-Sharing)
+* [Scripts](#Scripts)
+* [Gifs](#Gifs)
+
+
+## Contact  
+
 Questions, suggestions, help needed?  
 Contact me at:  
 Email: jgarza9788@gmail.com  
 Cell: 1-818-251-0647  
 Contact Info: [justingarza.net/contact](http://justingarza.net/contact/)
-  
-Description/Features
--------------------------------------
-This game is ment to be played by two players on the same device. For best results use Tablet.* Unique Mobile Game
+
+## Description Features
+
+This game is ment to be played by two players on the same device. For best results use Tablet.
+
+* Unique Mobile Game
 * Muliplayer OnScreenControls
 * Over 1500 Icons
 * ShockWave Screen Effect
 * Unity Ads
 * Share Button
+* Share Video of GamePlay
 
-...Reach out to me to request new features!  
-Terms of Use
--------------------------------------
+...Reach out to me to request new features! 
+
+
+## Terms of Use
+
 You are free to add this asset to any game you’d like
 However:  
 please put my name in the credits, or in the special thanks section. :)  
 please do not re-distribute.  
 
-Table of Contents 
--------------------------------------
-1. Required Imports
-2. Scenes
-	* StartScene
-	* TitleScene
-	* Game
-	* Info
-3. Systems/Effects
-	* Audio (Music/Sound)
-	* SceneSwitchAnimator
-	* Native Sharing
-4. Scripts
-5. Gifs
+## Required Imports
 
-  
-Required Imports
--------------------------------------
 Before this game can work you must import a few Standard Assets.
 
 **CrossPlatformInput**   
 this will allow the OnScreenControls to work.
 
-**Effect**  
-this will allow the Camera Effects to work.
+![Imgur](http://i.imgur.com/XECsANnm.png)
 
-![Imgur](http://i.imgur.com/lgjMAA7m.png)
+**Post Processing Stack**
+this allows you to add camera effects
+
+![Imgur](http://i.imgur.com/IEcywl1m.png)
 
 **Unity Ads 2.0**  
 Also download Unity Ads 2.0 from the asset store 
 (if needed, pending on the unity version this can be imported via the services window)
 
+![Imgur](http://i.imgur.com/iBCCrppm.png)
+
 **EveryPlay**  
 Also download EveryPlay from the asset store 
 
+![Imgur](http://i.imgur.com/mFGFqxom.png)
+
 >
 After importing these your asset folder should look like this   
-![Imgur](http://i.imgur.com/V2InKF0m.png)
+![Imgur](http://i.imgur.com/Y2hgLMf.png)
 
+## Inputs
+pending on how you downloaded/imported the project files you might need to set up the inputs.
 
-Scenes 
--------------------------------------
+the inputs should look like this.
 
-**StartScene**  
+![Imgur](http://i.imgur.com/FtZOmNg.png)
+
+## Scenes 
+
+### StartScene
 This scene will provide the players information about how the game works.
 
 ![Imgur](http://i.imgur.com/1APGbuCm.png)
 
-**TitleScene**  
+### TitleScene
 This scene allows the players to start the game, toggle music/sounds, share the game, or go to the Info scene.
 
 ![Imgur](http://i.imgur.com/mkdUTeem.png)
 
-**Game**
+### Game
 This is the actual game.
 Note: it has 4 different status (Intro, Play, P1Win, P2Win)
 
 ![Imgur](http://i.imgur.com/o5KdCd0m.png)
 
-**Info**
+### Info
 This scene can provide legal info about the game.
 
 
->
-The Scenes will look a little different than the images above.  
-In order to make them look the same please apply the following effects to the cameras in each scene:  
-Bloom, Vignette and Chromatic Aberration, and Color Correction Curves.  
-![Imgur](http://i.imgur.com/qrDvXTkm.png)  
-[LinkToImage](http://i.imgur.com/qrDvXTk.png)
->
-**or** you can unzip the MainCameraWithEffects.zip and use that prefab to replace the MainCamera.prefab.
 
 
-Systems/Effects 
--------------------------------------
-**Audio (Music/Sound)**  
+## Systems/Effects
+
+### Audio (Music/Sound)
 MusicManager and SoundManager are two Objects that are never destroyed.
 They are used to play Music or a Sound without the need for each object to have it's own AudioSource Component, and this allows us to play sounds while the scene is switching. 
 Read MusicManager.cs** and SoundManager.cs** for more info.
 
-**SceneSwitchAnimator**  
+### SceneSwitchAnimator
 This GameObject will allow us to have a nice scene animation while changing scenes.
 
-**Native Sharing**  
+### Native Sharing
 This is an OpenSourced asset that can be found at...  
 https://github.com/ChrisMaire/unity-native-sharing
 
-Scripts 
--------------------------------------
+
+
+## Scripts 
+
 Below is a list of the scripts that make this game work, along with a breif description of what they do.
 
-###~Assets/NightmareVsNightmare/Scripts/###
+**~Assets/NightmareVsNightmare/Scripts/**
 
 **AmmoUIManager.cs**  
 This script manages the ammo (number of UIBullets) that are seen on the screen
-
-**BlurControl.cs**  
-Used to allow the animator to control the Blur Material
 
 **BothPlayersReady.cs**  
 This Script will transition to the Game scene when both players are ready.
@@ -138,9 +149,6 @@ sets bounds to determine what is in the camera's view
 
 **CameraControl.cs**  
 Moves the camera to show the winner when the game is over
-
-**ChildrenAlpha.cs**  
-Used to change the alpha of the menu icons and text.
 
 **DontDestroy.cs**  
 This script will allow an object to live on after scene transition.
@@ -239,8 +247,7 @@ This Script can be assigned to a toggle to control Music or Sound
 turns on the lights and Particles on the TitleScene
 
 
-Gifs 
--------------------------------------
+## Gifs
 
 ![Imgur](http://i.imgur.com/JBWw3zUm.gifv)  
 [Imgur](http://i.imgur.com/JBWw3zU.gifv)
@@ -253,29 +260,4 @@ Gifs
 
 ![Imgur](http://i.imgur.com/CvNAecym.gifv)  
 [Imgur](http://i.imgur.com/CvNAecy.gifv)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
