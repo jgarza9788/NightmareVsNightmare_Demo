@@ -13,6 +13,10 @@ Enjoy! :)
 * [Terms of Use](#Terms-of-Use)
 * [Required Imports](#Required-Imports)
 * [Inputs](#Inputs)
+* [Collision SetUp](#Collision-SetUp)
+	* [Add Layers](#Add-Layers)
+	* [Assign Layers](#Assign-Layers)
+	* [Edit the Collisions](#Edit-the-Collisions)
 * [Scenes](#Scenes)
 	* [StartScene](#StartScene)
 	* [TitleScene](#TitleScene)
@@ -32,7 +36,7 @@ Questions, suggestions, help needed?
 Contact me at:  
 Email: jgarza9788@gmail.com  
 Cell: 1-818-251-0647  
-Contact Info: [justingarza.net/contact](http://justingarza.net/contact/)
+Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
 
 ## Description Features
 
@@ -91,6 +95,31 @@ pending on how you downloaded/imported the project files you might need to set u
 the inputs should look like this.
 
 ![Imgur](http://i.imgur.com/FtZOmNg.png)
+
+## Collision SetUp
+Depending on how you got this asset you might need to set up the collision rules. below are the instructions on how to do it.
+
+### Add Layers
+go to Edit->Project Settings->Tags and Layers
+
+![Imgur](https://i.imgur.com/wqthINt.png)
+
+create these 4 layers
+![Imgur](https://i.imgur.com/EInzHmE.png)
+
+### Assign Layers
+go to the prefab folder and assign the layers to the objects
+![Imgur](https://i.imgur.com/WmuKftj.png)
+![Imgur](https://i.imgur.com/LWaeNk5.png)
+![Imgur](https://i.imgur.com/4Npi3tk.png)
+![Imgur](https://i.imgur.com/nCCkl3V.png)
+
+### Edit the Collisions
+go to Edit->Project Settings->Physics
+![Imgur](https://i.imgur.com/KSptXBQ.png)
+
+Edit the Layer Collision Matrix to match the image (below)
+![Imgur](https://i.imgur.com/zVME6FH.png)
 
 ## Scenes 
 
@@ -260,4 +289,5 @@ turns on the lights and Particles on the TitleScene
 
 ![Imgur](http://i.imgur.com/CvNAecym.gifv)  
 [Imgur](http://i.imgur.com/CvNAecy.gifv)
+
 
