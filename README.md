@@ -100,42 +100,42 @@ the inputs should look like this.
 Depending on how you got this asset you might need to set up the collision rules. below are the instructions on how to do it.
 
 ### Add Layers
-go to Edit->Project Settings->Tags and Layers
+go to Edit->Project Settings->Tags and Layers  
 
 ![Imgur](https://i.imgur.com/wqthINt.png)
 
-create these 4 layers
+create these 4 layers  
 ![Imgur](https://i.imgur.com/EInzHmE.png)
 
 ### Assign Layers
-go to the prefab folder and assign the layers to the objects
-![Imgur](https://i.imgur.com/WmuKftj.png)
-![Imgur](https://i.imgur.com/LWaeNk5.png)
-![Imgur](https://i.imgur.com/4Npi3tk.png)
-![Imgur](https://i.imgur.com/nCCkl3V.png)
+go to the prefab folder and assign the layers to the objects  
+![Imgur](https://i.imgur.com/WmuKftj.png)  
+![Imgur](https://i.imgur.com/LWaeNk5.png)  
+![Imgur](https://i.imgur.com/4Npi3tk.png)  
+![Imgur](https://i.imgur.com/nCCkl3V.png)  
 
 ### Edit the Collisions
-go to Edit->Project Settings->Physics
+go to Edit->Project Settings->Physics  
 ![Imgur](https://i.imgur.com/KSptXBQ.png)
 
-Edit the Layer Collision Matrix to match the image (below)
+Edit the Layer Collision Matrix to match the image (below)  
 ![Imgur](https://i.imgur.com/zVME6FH.png)
 
 ## Scenes 
 
 ### StartScene
-This scene will provide the players information about how the game works.
+This scene will provide the players information about how the game works.  
 
 ![Imgur](http://i.imgur.com/1APGbuCm.png)
 
 ### TitleScene
-This scene allows the players to start the game, toggle music/sounds, share the game, or go to the Info scene.
+This scene allows the players to start the game, toggle music/sounds, share the game, or go to the Info scene.  
 
 ![Imgur](http://i.imgur.com/mkdUTeem.png)
 
 ### Game
 This is the actual game.
-Note: it has 4 different status (Intro, Play, P1Win, P2Win)
+Note: it has 4 different status (Intro, Play, P1Win, P2Win)  
 
 ![Imgur](http://i.imgur.com/o5KdCd0m.png)
 
