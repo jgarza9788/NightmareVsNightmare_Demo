@@ -8,26 +8,28 @@ Enjoy! :)
 
 ## Table of Contents
 
-* [Contact](#Contact)
-* [Description/Features](#Description-Features)
-* [Terms of Use](#Terms-of-Use)
-* [Required Imports](#Required-Imports)
-* [Inputs](#Inputs)
-* [Collision SetUp](#Collision-SetUp)
-	* [Add Layers](#Add-Layers)
-	* [Assign Layers](#Assign-Layers)
-	* [Edit the Collisions](#Edit-the-Collisions)
-* [Scenes](#Scenes)
-	* [StartScene](#StartScene)
-	* [TitleScene](#TitleScene)
-	* [Game](#Game)
-	* [Info](#Info)
-* [Systems/Effects](#Systems/Effects)
-	* [Audio (Music/Sound)](#Audio-(Music/Sound))
-	* [SceneSwitchAnimator](#SceneSwitchAnimator)
-	* [Native Sharing](#Native-Sharing)
-* [Scripts](#Scripts)
-* [Gifs](#Gifs)
+- [Nightmare Vs. Nightmare](#nightmare-vs-nightmare)
+- [Table of Contents](#table-of-contents)
+- [Contact](#contact)
+- [Description Features](#description-features)
+- [Terms of Use](#terms-of-use)
+- [Required Imports](#required-imports)
+- [Inputs](#inputs)
+- [Collision SetUp](#collision-setup)
+	- [Add Layers](#add-layers)
+	- [Assign Layers](#assign-layers)
+	- [Edit the Collisions](#edit-the-collisions)
+- [Scenes](#scenes)
+	- [StartScene](#startscene)
+	- [TitleScene](#titlescene)
+	- [Game](#game)
+	- [Info](#info)
+- [Systems/Effects](#systemseffects)
+	- [Audio (Music/Sound)](#audio-musicsound)
+	- [SceneSwitchAnimator](#sceneswitchanimator)
+	- [Native Sharing](#native-sharing)
+- [Scripts](#scripts)
+- [Gifs](#gifs)
 
 
 ## Contact  
@@ -36,7 +38,9 @@ Questions, suggestions, help needed?
 Contact me at:  
 Email: jgarza9788@gmail.com  
 Cell: 1-818-251-0647  
-Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
+Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)  
+Alternate Website: [jgarza9788 - UnityPortfolio](https://github.com/jgarza9788/UnityPortfolio)  
+
 
 ## Description Features
 
@@ -182,8 +186,9 @@ Moves the camera to show the winner when the game is over
 **DontDestroy.cs**  
 This script will allow an object to live on after scene transition.
 
-**EveryPlayButton.cs**
-takes the users to everyplay community
+~~**EveryPlayButton.cs**~~
+~~takes the users to everyplay community~~
+Unity no longer supports this feature
 
 **explosionDamage.cs**  
 causes damage to the player if it is hit by an explosion particle.
